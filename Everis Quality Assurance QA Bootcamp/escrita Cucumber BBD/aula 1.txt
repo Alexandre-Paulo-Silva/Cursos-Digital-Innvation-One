@@ -20,3 +20,31 @@ deve ser focado em regras de negocio
 
 Em forma de Streps (Passos ) quais especificam cada etapa de inteigracao do usuario
 com o sistema a ser testado
+
+* Gherkin existem palavras chaves para especificar cada streps, essenciais para 
+interagir com o sistema 
+
+* Os quais especicam cada estapa do sistema.
+
+* Ele deve ser focado na regra de negocio. Em forma de Streps  passos , os quais
+especicam cada etapa de inteigracao do usuario com o sistema a ser testado
+
+====================================================================
+
+Given = dado
+
+when = quando
+
+then = entao
+
+and = E 
+
+But = Mas 
+
+Cenario : traferencia de uma conta poupança
+
+    Dado que: eu tenho uma conta corrente com 10000
+    E: que eu tenho uma conta de poupança com 20000
+    Quando: Eu traferir 500,00 a partir de minha conta corrente para a minha conta poupança
+    Entao: eu deveria ter 500,00 em minha conta corrente
+    E: eu deveria ter 2.500,00 e minha conta poupança
