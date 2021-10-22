@@ -160,3 +160,6 @@ public class Pagamento {
 	Seu objetivo e encontrar falhas de integração e não mais testar a funcionalidade.
 
 
+===========================================================
+
+Exmplo de defeitos que podem pegar 
