@@ -1,0 +1,7 @@
+compilado o java
+
+java -version
+
+javac hello.java
+
+

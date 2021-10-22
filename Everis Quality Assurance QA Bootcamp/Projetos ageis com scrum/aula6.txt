@@ -1,0 +1,49 @@
+analisando o escopo do projeto e definindo prioridades
+
+1) MVP
+
+2) NOT LIKE THIS -----> nao tendo o feedback do cliente so no final
+
+   LIKE THIS --> dento o feedback do cliente 
+
+
+
+
+vision board -----> product backlog-----> minimal viable product ---> cliente
++                                                                        |
+|                                                                        |
+|                       feedback                                         |
+| -----------------------------------------------------------------------|
+
+
+product backlog e composto por epicos e estorias
+
+espicos = icremento sem muitos detalhamento, ajuda a te direncionar dos caminhos que seve seguir
+
+estoria = detalhamento dos epicos um epico normalmente se divide em varias estorias onde ficam 
+destinados o que deve acontecer e suas regras de negocios 
+
+exemplo 
+tema um site
+a pagina de rosto --- epic
+funcionalidades ---- user stores 
+tasks
+
+escrevendo uma estoria 
+
+nome da estoria 
+descricao da estoria(eu, como , quero , quando)
+regras de negocios(separar regras de front end de regras de back end)
+tela (link ou imagem das telas a serem desenvolvidas)
+kpi(quais os objetivos / valor a estotia presisa atingir)
+tagueamento(como a estoria sera tagueada para pode mensurar as kpi)
+criterios de aceite (qual o passo a passo de todos os caminhos felizes possiveis a estorias 
+deve comprir para que seja censiderada aceita)
+
+Risos Positivos
+
+Positivos = Muitos ignorados nos projeto porem um dos fatores  de maiores ganhos no desenvolvimento
+de sistemas 
+negativos = Itens que podem afetar o prazo , custo ou escopo de um projeto de maneira que pode 
+acabar invalidando 
+

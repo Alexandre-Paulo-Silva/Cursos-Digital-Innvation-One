@@ -1,0 +1,71 @@
+O que e SOAP
+
+As vantagens de se ultilizar SOAP
+
+o que e xml
+
+Enteder a estrutura de uma menssgem SOAP
+
+
+O que e SOAP ?
+
+SOAP - Simple Object Access Protocol
+
+E um protocolo baseado em xml para acessar servicos web principalmente por HTTP
+
+Pode se dizer que SOAP e uma definicao de como servicos web se comunicam
+
+foi desensvolvido para facilitar integraçoes entre aplicacoes 
+
+vantagens
+
+Permite integraçoes entre aplicacoes, indepemdente de linguagem pois usa como linguagem comum o xml
+
+e indepemdente de plataforma e software 
+
+Meio de Transporte generico ou seja pode ser usado por outros protocolos alem do HTTP
+
+O que um xml
+
+xml - Extensible Markup linguage
+
+E uma linguagem de marcação criada na decada de 90 pela w3c
+
+facilita a serparacao de conteudo 
+
+Nao tem limitacao de criacao de criacao de tags
+
+linguagem comum para integraçoes entre aplicacoes
+
+
+estrutura SOAP
+
+O SOAP menssgem possui uma estrutura unica que deve sempre ser seguida
+
+SOAP Envelope ---> SOAP Header --> SOAP Body
+
+
+SOAP Envelope e o primeiro elemento do documento e e usado para encapsular toda a menssgem SOAP
+
+SOAP Header e o eleemento onde possui informacoes de atributos e metadados de requsicao 
+
+SOAP Body e o elemento que contem os detalhes da menssgem
+
+
+menssgem SOAP
+
+
+
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+
+<soap:Header>
+
+</soap:Header>
+
+<soap:Body>
+<m:MetodoEndereco xmlns:m="http://www.exemple.org/endereco">
+<m:Cidade>Rio de janeiro</m:Cidade>
+</m:MetodoEndereco>
+
+</soap:Body>
+</soap:Envelope>

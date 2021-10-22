@@ -1,0 +1,32 @@
+papeis e resposabilidades
+
+Product Owner(PO)
+
+Scrum Master (SM)
+
+Time de desenvovimento(DEV)
+
+
+o que faz o Product Owner(PO)
+
+representa da area de negocios
+PO e uma pesssoa nao e um comite
+define as funcionalidades de cacordo com o valor do negocio
+garante que o time de desenvovimento atenda os itens do backlog no nivel necessario
+
+o que faz um Scrum Master (SM)
+
+garante o uso correto do scrum
+scrum Master nao e gerente de projetos 
+age como facilitador
+auxiliar o product Owner no planejamento e estimativas do backlog
+auxiliar a equipe a remover impedimento e interdisciplinidade 
+
+o que faz o Time de desenvovimento(DEV) 
+
+possui habilidades suficientes par desenvover testar criar e desenhar ou todo for necessario para
+entregar o software funcionado
+
+
+
+

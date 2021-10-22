@@ -1,0 +1,16 @@
+Checked Exceptions
+
+Sao Excecoes esperadas, cujo o fluxo ou metodo de um sistema foi preparado para receber. Um bom exemplo e uma excecao de negocio, onde se deseja informar um erro caso a exceção esperada ocorra.
+
+-----------------------------------------------------------------------------
+
+Unchecked Execeptions 
+
+Sao excecoes nao esperadas para o fluxo ou metodo de um sistema, um bom exemplo e a famosa NULLPointException que ocorre quando se tenta acessar uma referencia de memoria vazia, ou recuperar uma instancia que nao existe, detre outro motivos
+
+
+-----------------------------------------------------------------------------
+
+Bloco Try catch
+
+O bloco try catch sempre e ultilizado quando no processo que sera executado dentro de um metodo e esperado um erro, entao cria-se um bloco protegido onde qualquer erro que ocorra dentro do trecho try e direncionado para o catch e soferara o devido tratamento de erro.

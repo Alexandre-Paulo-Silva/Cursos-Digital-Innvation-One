@@ -1,0 +1,8 @@
+Dicas adiciomnais 
+
+ estudar seletores;
+
+ waits: implicito e explicit wait 
+
+ Anotacões Junit : @before, @test e @after 
+

@@ -1,0 +1,85 @@
+desafios do desevolvimeto de sofware 
+
+
+                      requisitos
+objetivos de negocio -------------> Processo de desenvovimento ----------> sofware
+                                             concepcao
+                                           Analise e Desgn
+                                            desenvovimento
+                                                teste
+                                              implatacao
+
+O principios de pareto tambem se aplica ao desenvovimento de sofware, onde 20% das funcionalidades 
+constumam gerar 80% ou mais do bebeficios esperado
+
+gestao de projeto tradicional e agil
+tradicional so permite que o projeto avance quando uma fase esta inteiranente completa
+
+equipamento->desigm->implemention->verification->maiternace
+
+agil software constuido por partes (inclemental) e cada parte execultada se um ciclo (interativo)
+
+requisitos--->analises----> testes----->Liberacao 
+
+tradicional
+
+Escopo e definido na parte incial do projeto preventivo,
+projeto e controlado por fases e marcos 
+cliente so ve o software funcionado na fase final do projeto
+resistencia a mundaca
+
+agil
+
+Escopo definido ao longo do projeto(aptativo) 
+projeto controlado por funcionalidades entregues
+cliente pode ver parte do software funcionado na parte incial do projeto
+mundacas constantes de acordo com feedback continus
+
+Em um projeto tradicionais (waterfall), voce corre o risco de contribuir que estava errado depois de meses
+com o scrum voce descobre que estava errado em no maximo 30 dias.
+
+o que e ser agil ?
+
+rapidez (mudacas) e desembaraço
+fazer coisas complexas de forma simple
+equipe comprometida com os objetivos
+maior valor para o cliente
+ter a capacidade de responder rapidamente a mudacas
+
+o que o scrum
+
+E um frameworks de gerenciamento de projetos ageis
+projetos usados enquipes pequenas e multidisciplinares produzem os mellhores resultados
+
+
+pilares do scrum
+
+scrum ------> transparencia------> adptacao--------> inspecao 
+
+conversar mais escrever menos
+demostrar o software cosntantemente aos usuarios e obter feedback constantes
+requisitos mudam ao lono do tempo 
+aprender progresivamente com o uso de software
+
+razoes oara adotar o scrum
+
+desenvovimento e entregue em partes menores (2 a 4 semanas),
+com constante feedback dos usuarios 
+melhor gerenciamento de risco (reduzindo incertezas)
+comprometimento, motivacao e transparencia da equipe (daily maeeting)
+maior valor para negocio(priorizando do backlog)
+usuarios envolvidos durante todo o ciclo
+aplicacao das licoes aprendidas (melhoria continua)
+
+caracteristicas do time scrum
+
+equipe capazes de auto-organizarem 
+as tarefas sao do time e dos sao responsaveis 
+forte comprometimento com resultados
+
+por que as startups ultilizao o frameworks agil ?
+
+entregam pelo menos o minimo do produto para o cliente 
+minimum viable product
+
+

@@ -1,0 +1,40 @@
+Pilha 
+
+Uma Pilha e uma estrutura de dados quer serve como uma colecao de elementom e permite o acesso a 
+somente um item de dados armazenado
+
+O acesso aos itens de uma Pilha e restrito - somente um item pode ser lido ou removido por vez
+
+tipos de pilhas
+
+LIFO OU UEPS
+FIFO OU PEPS
+
+A estrutura do tipo Pilha FIFO (LAST IN FIST OUT) ou UEPS (Utinmo que e entra primeiro que sai), 
+apresenta o seguinte criteir: o primeiro elemento a ser retirado e o ultimo que tiver sido 
+inserido
+
+
+A estrutura de tipo Pilha FIFO (Fist in Fist Out) ou PEPS (primeiro que entra primeiro que sai ),
+apresenta o seguinte criterio: o primeiro elemento a ser retirado e o primeiro que tiber sido 
+inserido
+
+
+LIFO OU UEPS
+
+
+                                      /------->
+                                     /
+                                  __/___ 
+     /-----\     /-----\         |  2   |
+    /       \   /       \        |______|
+|      |  |  +   |  |    + | |      |
+|      |  |      |  |      | |      |                                   
+|      |  |______|  |______| |      |
+|      |  |   1  |  |   2  | |      |
+|      |  |______|  |______| |______|                  
+|      |  |      |  |   1  | |   1  |
+|______|  |______|  |______| |______|
+
+ Empty      Push      Push      Pop
+ stack 

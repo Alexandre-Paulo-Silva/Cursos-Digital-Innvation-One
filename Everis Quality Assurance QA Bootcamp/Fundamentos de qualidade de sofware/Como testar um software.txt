@@ -1,0 +1,89 @@
+teste de software
+
+tipos x tecnicas x niveis
+
+
+1)tipos de teste:
+
+# Teste de Funcionalidade
+# Teste de Usabilidade 
+# Teste de Perfomace
+# Teste de Seguranca
+
+2) tecnicas de teste:
+
+# Teste Funcional(black-box)
+# Teste Estrutural(write-box)
+
+3) niveis de teste
+
+# Teste de Uniadade
+# Teste de Integracao
+# Teste de Sistema
+# Teste de Aceitacao (Visao do cliente)
+
+Processo de Teste
+
+Planejar -----------> Projetar ------------> Executar --------------> Entregar
+
+Planejar = Estrategias, plano de teste, cenarios basicos;
+
+Projetar = Elaborar Casos de Teste, tecnicas de Teste;
+
+Executar = Bugs, Execuccao de testes, Evidencias;
+
+Entregar = Status Report, Evidencias de Teste;
+
+Ferramentas de Testes:
+
+Planejar = Azure, Jira, TesteLink;
+
+Projetar = TesteLink, Azure, Jira;
+
+Executar = Azure, Jira, BugZilla, Mantis, Redmine;
+
+Entregar = TesteLink, Azure, Jira;
+
+---------------------------------------------------------------------------------------------
+
+plano de Teste\------>Ciclos de Teste
+               \
+                \----> Casos de Teste
+
+
+Ciclos de Teste\-------> Versao do Software
+                \
+                 \-----> Ambiente de Teste
+
+Casos de Teste\--------> Massa de Dados
+               \-------> Passos de Execucao
+                \------> Resultdo Esperado
+
+
+Teste Estaticos
+
+checklist de Especificacao de Requisitos:
+
+* Verificacao de diagramas
+* Codigo
+* Plano de Teste
+* Especificao de Teste
+* Script de Teste
+* Manual de usuario
+
+----------------------------------------------------------------------------
+
+Planejamento 
+
+Leitura dos requisitos ----> Levantamento de duvidas ----> ideias de teste ----> Estimativa
+
+
+-------------------------------------------------------------------------------
+
+Projetar
+
+Nome/Titulo
+objetivo
+Pré-Condicao
+Passo a Passo
+Resultado esperado

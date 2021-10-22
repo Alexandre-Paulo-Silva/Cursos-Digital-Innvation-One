@@ -1,0 +1,42 @@
+Objetivos da aula 
+
+
+O que e o DOM
+Por que Javasript ?
+Vizualizando o DOM no navegando 
+Manipulando o DOM
+
+O que e o DOM
+
+DOM = Document Object Model - quando o browser carrega um documento html e seus complementos
+O DOM e um Objeto em memoria que representa o documento e permite Manipular
+
+Aplicavel em html e Xml (nosso foco e DOM html)
+
+Exemplo de complementos de uma pagina html
+
+imagens 
+arquivos para controle de formatacao 
+Aquivos com Javasript para modificar ou adicionar comportamento
+
+
+O que e o DOM
+
+De maneira simplificada:
+
+Arvore de nos
+Elementos
+  Propiedades
+  metodos
+  manipuladored de eventos
+
+
+  Por que Javasript
+
+  Padrao de mercado 
+
+  Ate o IE 10, poderiamos utilizar, (com o IE) VBS script 
+  nao e mais suportado pelo IE ou pelo Edge
+
+  Caso necessario , podemos codificar em outra liguagem e copilar para Javasript,
+  Nao Recomendo neste contexto em estamos abordando.

@@ -1,0 +1,43 @@
+instalando o java e configurando
+java --version
+
+export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
+export PATH=$PATH:$JAVA_HOME/bin:$PATH
+
+instalando o gradle
+
+export PATH=$PATH:/opt/gradle/gradle-6.9.1/bin
+
+gradle -v
+
+instalando o maven
+
+export PATH=$PATH:/opt/maven/apache-maven-3.8.2/bin
+mvn -v
+
+resolvendo incopatibiliade de versoes do gradle
+
+gradle wrapper
+
+./gradlew 
+
+resolvendo incopatibiliade de versoes do maven
+
+
+mvn -N io.takari:maven:wrapper
+
+./mvnw -v
+
+
+spring boot -gerar projeto
+
+
+https://start.spring.io/
+
+
+
+
+
+
+
+

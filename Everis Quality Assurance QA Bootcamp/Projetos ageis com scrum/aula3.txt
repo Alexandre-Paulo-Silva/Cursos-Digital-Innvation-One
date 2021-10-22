@@ -1,0 +1,46 @@
+cerimonias do scrum 
+
+tempo maximo para fazer uma serimonia ou sprint ou reuniao para fazer uma serimonia
+
+cerimonias do scrum
+
+sprint = corrida, arrancada
+
+e o principal evento do scrum
+
+duracao de 1 sprint sao 30 dias corridos ou menos
+
+composicao de uma sprint
+
+Planejamento da sprint
+reunioes diarias(daily meeting)
+reunioes da sprint (review)
+retrospectivas da sprint
+
+Planejamento da sprint
+
+que participa -----> product backlog
+
+time box = 8h (sprint = 30 dias)
+
+reunioes do time daily meeting (time-box 15 minutes)
+
+to do 
+doig 
+done
+
+
+time dev apresenta para o po o trabalho feito (time box = 4h (sprint = 30 dias)
+
+retrospectivas da sprint (time box = 3h (sprint = 30 dias)
+reuniao de equipe para licoes aprendidas 
+transparencia
+
+
+
+
+
+
+
+
+

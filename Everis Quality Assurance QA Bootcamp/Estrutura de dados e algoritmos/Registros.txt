@@ -1,0 +1,23 @@
+Enquanto arrays nos permitem armazenar varios dados de um unico tipo de dados, o recurso de registro
+permite armazenar mais de um tipo de dado
+
+um registro e composto por campos que  especificam cada uma das informacoes que compoem campos 
+
+abaixo podemos ver algubs campos de exemplo que constituem o registro de um cliente:
+
+cpf:
+Nome:
+Endreço:
+Contato:
+
+
+Toda estrutura de registro tem um Nome (ex: livro), e seus campos podem ser acessados por meio do 
+uso do operador ponto .  . Por exemplo para acessar o preco do livro, podemos ultilizar a seguite
+declaracao:
+
+livro.preco
+
+
+
+
+

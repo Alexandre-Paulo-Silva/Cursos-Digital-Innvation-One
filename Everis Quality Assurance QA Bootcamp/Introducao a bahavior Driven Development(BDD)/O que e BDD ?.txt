@@ -1,0 +1,29 @@
+BDD ee um processo colaborativo que envolve menbros do time com diferentes pespectivas(PO
+QA,DEV, UX) para enteder e refinar os requesitos do cliente atraves de conversas sobre 
+exemplo de uso e comportamento do sistema
+
+Visa integrar regras de negocio com liguarem de programacao 
+
+Idealizando por Dan North por volta de 2003, BDD pode ser enterndido como um "Passo alem 
+do TDD"
+
+Tipico processo cascata (Waterfall)
+
+
+
+
+cliente -----> Analista de negocio----> especificacoes ----> Desenvolvedor----> aplicaçao
+                                                    \                               |
+                                                     \-----> Testador               |
+                                                                              script de Tete
+
+
+
+Processo Agile com BDD
+                                                                 dev       
+                                                                         /----aplicacao
+       |------>|                 |-------->|Desenvolvedor|              /
+Cliente|       |Po (Product Ower)|         |Product ower |--> Criterios
+       |<------|                 |<--------|QA           |              \ 
+                                                                         \----script
+                                                                 QA        

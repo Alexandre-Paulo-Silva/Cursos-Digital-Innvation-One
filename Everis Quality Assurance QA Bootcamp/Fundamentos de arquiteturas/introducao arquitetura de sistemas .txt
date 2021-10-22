@@ -1,0 +1,52 @@
+tipos de arquiteturas
+
+comparativos entre os tipos de arquiteturas
+
+gereciamento de erros e volumes de acesso
+
+
+Requisitos basicos
+
+conhecimento basicos sobre protocolos HTTP e proxy
+
+entedimento sobre RestAPI
+
+conhecimentos sobre docker
+
+saber programar
+
+
+Monolito
+
+
+                                    servidor
+banco de dados <---------------- aplicacao (instacia #1) <----------------- Proxy HTTP <----web app
+               <---------------- aplicacao (instacia #2) <-----------------            <----mobile app
+               <---------------- aplicacao (instacia #3) <-----------------
+
+
+microserviçoes #1
+
+                                    Cluster
+Servico externo <---------------- Nodo1 (Serviço 1) <----------------- Proxy HTTP <----web app
+banco de dados1 <---------------- Nodo2 (Serviço 2) <-----------------            <----mobile app
+banco de dados2 <---------------- Nodo3 (Serviço 3) <-----------------
+
+
+
+microserviçoes #2
+
+                                    Cluster
+Servico externo <---------------- Nodo1 (Serviço 1) <----------------- Proxy HTTP <----web app
+Message Broker  <---------------- Nodo2 (Serviço 2) <-----------------            <----mobile app
+banco de dados2 <---------------- Nodo3 (Serviço 3) <-----------------
+
+
+
+microserviçoes #3
+
+                                    Cluster
+banco de dados1 o <---------------- Nodo1 (Serviço 1) <----------------- Proxy HTTP <----web app
+Serviço externo  <---------------- Nodo2 (Serviço 2) <-----------------            <----mobile app
+banco de dados2 <---------------- Nodo3 (Serviço 3) <-----------------
+

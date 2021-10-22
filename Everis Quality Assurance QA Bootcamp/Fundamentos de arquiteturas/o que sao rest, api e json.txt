@@ -1,0 +1,68 @@
+o que rest 
+
+vantagens em se ultilizar rest 
+
+o que e api
+
+entedendo os metodos ultilzados pelo rest
+
+estrutura de um rest
+
+estrutura de json
+
+rest - reprensentational state transfer
+
+E um estilo de arquitetura de software que define a implementacao de um servico web 
+
+podem trabalhar com o formato xml, json ou outros
+
+vantagens do rest
+
+permite integracao entre aplicacoes e tambem entre cliente e servidor em paginas web e aplicacoes
+
+ultilizar dos metodos HTTP para definir a operacao de estar sendo efetuado
+
+arquitetura de facil compreencao 
+
+
+estrutura do rest
+
+        requisicao HTTP (get, post, put, delete...)
+cliente -------------------------------------- servidor
+        Retorna do codigo de operacao
+        Retorna menssagem (Texto, JSON, XML)
+
+        quando um aplicacocao web um conjuto de rotinas e padroes atraves de servicos web podemos chamar de aplicacocao
+
+o que API ?
+
+API - Application Programming Interface
+
+sao conjuto de rotinas documentados e disponibilizados por uma aplicacocao para outra aplicacocao
+possam consumir suas funcionlidades 
+
+ficou popular com aumento dos servicos web
+
+as maiores plataformas de tecnologias disponibilizam APIs para acessos de suas funcionlidades, algumas
+delas sao: Facebook, Twitter, Telegram, Whatsapp, GitHub ....
+
+Metodos HTTP
+
+get - solicita a representacao de um recurso
+
+post - solicita a criacao de um recurso
+
+delete - solicata a exclusao de um recurso
+
+put - solicita a atualizacao de um recurso
+
+
+o que JSON ?
+
+JSON  - javascript object Notation
+
+formacao leve ultilizada para troca de menssagens entre sistemas
+
+usa-se de uma estrutura de chaves e valor e tambem de listas ordenadas 
+
+um dos formatos mais populares e mais ultilzados para troca de menssagens entre sistemas

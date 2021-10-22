@@ -1,0 +1,15 @@
+Objetivos da aula 
+
+
+Entender o funcionamento de exececoes em java
+
+aprender quando usar exececoes em java
+
+Qualificar seu conhecimento
+
+
+Excecoes sao todos os erros que ocorrem durante o processanento de um metodo que podem ser esperados ou nao esperados. como o termo diz Exceptions sao execoes. falhas que nao devem ocorrer retineiramente no fluxo de um sistema.
+
+
+Package java.lang;
+

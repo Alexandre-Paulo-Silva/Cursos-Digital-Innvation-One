@@ -1,0 +1,14 @@
+
+passo 1:
+
+baixar o chromeDrive https://chromedriver.chromium.org/downloads
+
+baixar o Junit
+
+installar o python
+
+pip install selenium
+
+
+
+

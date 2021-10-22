@@ -1,0 +1,11 @@
+Fanally
+
+O fanally e um bloco de codigo que pode ou nao ser ultilizado junto ao try catch, este trecho de codigo sempre sera execultado independentimente se ocorrer erro ou ano dentro do fluxo onde existe o try catch. Normalmente o fianlly e usado para liberar recursos ou para dar continuidade em um fluxo que deve ocorrer independente de erro.
+
+----------------------------------------------------------------------------
+
+Throw e Throws
+
+Throws: E a assinatura de metodo que sera retornado caos ocorra erro para o metodo que fez a chamada, dentro de um fluxo encadeado
+
+Throw: E usado para lancar a excecao desejada, juntamente com a menssagem de erro, para o metodo que fez a chamanda.

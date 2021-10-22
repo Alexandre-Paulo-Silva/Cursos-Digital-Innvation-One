@@ -1,0 +1,18 @@
+Quem e product owner ?
+
+O product owner representa o profissional que tem a visao do que sera desenvolvido, as necessidades a
+serem atendidas, o publico que vai ultilizar os sevicos e os objetivos a serem alcaçados
+
+release planning
+
+libertacao ou lancamento de software (em ingles: release) e o lancamento de nova versao oficial de
+produto  de software. cada vez que um produto de software e criado ou modificado o fabricante e seus
+desenvolvedores decidem sobre como distribuir ou o novo produto ou a modificacao as pessoas que o 
+ultilizao
+
+existen 2 tipos de release planning
+
+release planning de multiplas squads
+
+release planning de projetos
+

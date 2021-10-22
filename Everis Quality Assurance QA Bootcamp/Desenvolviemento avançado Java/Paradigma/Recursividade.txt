@@ -1,0 +1,14 @@
+Recursividade 
+
+na recursividade, uma funcao chamada a si mesma repetidamente ate atigir uma condicao de parada. 
+
+no caso do java, um metodo chamada gera uma nova entrada na pilha de execucao, e alguns dados podem set disponibilizados em um escopo global ou local, atraves de paramentros em um escopo global ou local
+
+----------------------------------------------------------------------
+
+Tail Call (Recursividade em cauda) Recursao em cauda e uma recursao onde nao ha nenhuma linha de codigo apos a chamda do proprio metodo e, sendo assim, nao ha nenhum tipo de processamento a ser feito apos a chamada recursiva
+
+obs: a Jvm nao suporta a recursai em cauda, ele lanca um estouro de pilha (stackoverFlow)
+
+Memoixatioon: e uma tecnica de otimizacao que consiste no cache do resultado de uma funcao, baseado nos parametros de entrada, com isso, nas seguites execucaoes
+

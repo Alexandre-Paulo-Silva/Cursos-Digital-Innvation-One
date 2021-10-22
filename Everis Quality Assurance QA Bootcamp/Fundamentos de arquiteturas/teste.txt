@@ -1,0 +1,29 @@
+
+continuidade
+
+microsservocos desenvolvem sistemas mais flexiveis
+
+I - arduino pode ser ...:
+
+apenas I esta correta 
+
+
+I - Umas das vantagens de user microsservocos
+
+apenas II esta errada
+
+servicoes web facilitam integracoes e reutilizacoes
+
+Um sistma que gerencia banco de dados
+
+Lot ser implementados ?
+
+todas as alternativas
+
+I - API e um conjunto de rotinas
+
+somete alternativas I, II, IV estao corretas
+
+Rest utiliza os metodos HTTP para representar a operacao
+
+A manira como os dados sao conbertidos de meio fisico pra 

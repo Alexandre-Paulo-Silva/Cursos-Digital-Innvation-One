@@ -1,0 +1,10 @@
+fail([message]): pode ser usado para verificar se uma determinada parte do código não é atingida ou para ter um teste com falha antes que o código de teste seja implementado. O parâmetro da mensagem é 
+opcional.
+assertTrue([message,] boolean condition): verifica se a condição booleana é verdadeira.
+assertFalse([message,] boolean condition): verifica se a condição booleana é falsa.
+assertEquals([message,] expected, actual): testa se dois valores (esperado e atual) são os mesmos. No caso de arrays, a verificação é em relação à referência e não ao conteúdo.
+assertEquals([message,] expected, actual, tolerance): testa se dois valores float ou double correspondem. A tolerância é o número de casas decimais que devem ser consideradas na comparação.
+assertNull([message,] object): verifica se o objeto é nulo.
+assertNotNull([message,] object): verifica se o objeto não é nulo.
+assertSame([message,] expected, actual): verifica se ambas as variáveis se referem ao mesmo objeto.
+assertNotSame([message,] expected, actual): verifica se ambas as variáveis se referem a objetos diferentes.

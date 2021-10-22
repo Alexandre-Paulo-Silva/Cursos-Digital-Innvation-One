@@ -1,0 +1,20 @@
+qual a caracteristica melhor descreve uma estorias
+R: uma tarefa descrita a nivel de negocios 
+
+quem tem participacao obrigatoria na daili ?
+R: os scrum master um facilitador apenas o time de desenvolvimento
+
+quem tem participacao obrigatoria na retro ?
+R: o time de desenvolvimento e o scrum master
+
+em que momento acontece o refinamanto ?
+R: o refinamanto acontece um passo antes da planning
+
+qual a principal objetivo de review ?
+R: verificar se demanda agrega valor ao negocio
+
+o que e uma tarefa ?
+R: um conjuto de atividades que o time de desenvolvimento deve desempenhar para entregar a estoria
+
+o que e planning poker ?
+R: uma atividade de mensuracao de escopo do esforco e complexidade das tarefas ou estoria

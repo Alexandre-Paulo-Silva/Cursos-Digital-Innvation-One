@@ -1,0 +1,19 @@
+indica que todas as intruçoes detro do metodo
+
+@test, @before e @after
+
+E um IDE 
+
+E um conjunto de ferramenta de codifo aberto e multiplaforma
+
+indica todos os passos que serao execultados antes 
+
+auxilia a gerenciar as bibliotecas/ dependencias
+
+
+Define qual tipo de teste vai ser execultado e m qua momento
+
+
+indica os passos que serao execultados depois
+
+e uma biblioteca de teste extremamente flexivel

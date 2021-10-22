@@ -1,0 +1,13 @@
+Gerenciamento de erros 
+
+onde e mais complexo:
+
+Processos assincronos (microsservicos #2)
+pipeline
+
+solucao:
+
+dead letter queue
+filas de re-tentativas
+
+jeffhsta/fundamentos_arquitetura

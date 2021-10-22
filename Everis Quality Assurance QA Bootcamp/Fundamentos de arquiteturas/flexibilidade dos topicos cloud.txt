@@ -1,0 +1,29 @@
+A flexibilidade dos topicos
+
+mqtt://    broker.io   / a6g319 /       gps        / position
+ 
+protocolo  broker    User Indefinier    sensor      Information Type
+
+ /accelerometer
+ /gps/position
+ /gps/velocity
+
+ subscribe
+
+ sub mqtt:/broker/User/gps/position
+
+ QoS 0
+
+ Qos 1
+
+ Qos 2
+
+
+ cloud
+
+ grade e cada vez maior numero de devices conectados
+
+ tbs ou pbs informacoes 
+
+Potencial de escala global
+

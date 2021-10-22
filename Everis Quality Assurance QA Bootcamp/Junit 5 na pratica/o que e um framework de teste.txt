@@ -1,0 +1,23 @@
+O que e um framework de teste ?
+
+E uma ferramenta que permite acelerar, facilitar ou organizar o processo de testesm normalmente no contexto de automatizacao 
+
+conjuto de regas ou diretrizes ultilizadas oara definir um processo de trabalho de testes 
+
+Exemplo de Frameworks :
+
+Junit 
+
+TestNg
+
+e-FATHREE
+
+Selenium
+
+Principais Beneficios de ultilizar um framework: 
+
+* maior Eficiencia 
+* maior velocidade na criacao de testes
+* menor custo de manutencao 
+* maior cobertura de testes 
+* reutilizacao do codigo

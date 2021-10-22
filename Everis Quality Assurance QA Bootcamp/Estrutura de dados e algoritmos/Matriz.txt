@@ -1,0 +1,4 @@
+Matriz ou array multi-dimensinal e um vetor de Vetores
+
+uma Matriz e um vertor que possui duas ou mais dimensoes
+

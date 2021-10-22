@@ -1,0 +1,162 @@
+piramide de Teste
+
+quem criou ? 
+
+Mike cohn em seu livro "Succeeeding with Agile", em 2009
+
+do que se trata a piraminde ?
+
+trata-se de uam metafora visual para pensarmos em diferentes camadas de teste 
+
+
+                --
+              UI Test           slower    more integration
+             ----------
+			Service Test
+          -----------------
+             Unit Test
+        ---------------------   faster    more isolation
+
+
+ Conceito 
+
+ A piramide serve para nos orientarmos na criacao de testes
+
+ devemos sempre lembrar duas coisas de piramide original de cohn:
+
+ escrever teste com granularidade diferente 
+ quanto mais alto nivel do teste, menos teste deve ter 
+
+
+ Granularidade diferente ?
+
+ devidir os teste em 3 niveis (unitario, integracao/servico e interface/e2e)
+
+ *Teste unitarios (métodos de uma classe) deve conter a maior cobertura/
+ *Teste de interface devem conter menor cobertura.
+
+ --------------------------------------------------------------------------------
+
+ Maior Nivel 
+
+ teste de simular os passos de um usuario em tela, podemos considerar um teste de alto nivel;
+
+
+Camadas de Testes
+
+
+A piramide de Teste Original Cohn consiste em Tres camadas:
+
+ * Teste de Unidade 
+ * Teste de serviço/Intregraçao 
+ * Teste de UI/e2e
+
+
+                --
+              UI Test           
+             ----------
+		   End to End Test
+          -----------------
+           Integration Test
+        ---------------------
+              Unit Test          
+     ---------------------------
+
+
+ Teste de unindade 
+
+
+ Testes que cobrem uma pequena porcao do codigo, ou melhor, um metodo de uma classe;
+
+ Exemplo de defeitos:
+
+
+* Defeito relacionado a implementacao do metodo ;
+
+
+==============================================================================
+
+Em uma classe Pagamento, temos o metodo Cobrar que recebe como paramentro um cliente 
+
+
+Public class Pagamento {
+	
+
+	public void cobrar (Cliente cliente){
+
+
+
+	}
+
+
+}
+========================================================================
+
+
+podemos escrever um teste para ese metodo, verificando se o saldo do cliente e menor apos sua chamada. Como resultado teriamos uma classe de teste:
+
+
+
+public class Pagamento {
+	
+	
+	@Test
+	public void testRemoverCreditosClientes(){
+
+	Cliente cliente = ClienteDao.getCliente();
+	Float saldoAnterior = cliente.getSaldo();
+
+	Pagamento pagamento = new pagamento();
+	pagamento.cobrar(clinte);
+
+	Assert.assertTrue(cliente.getSaldo()< saldoAnterior);
+
+
+
+
+	}
+
+
+
+
+
+
+
+}
+============================================================================
+
+	Possui custo baixo
+
+	*Não precisa subir sevidor inteiro da aplicação
+	*Não precisa de banco e micro serviço rodando
+
+
+	Pontos Positivos:
+
+
+	Executam mais rapidos
+	permitem maior cobertura 
+	previnem a regressão
+	incentiva a refatoração
+	evitam longa sessções de debugs
+	ajudam na documentação 
+	menor Custo
+	
+
+    Pontos Negativo:
+
+    Teste escrito pelo programador
+    Possui valor baixo para o negocio
+
+
+
+    ============================================
+
+    Teste de integração
+
+    Teste realiazado entre diferentes modulos do sistema do sistema, visando garantir a conectividade
+	entre essas partes;
+
+	Seu objetivo e encontrar falhas de integração e não mais testar a funcionalidade.
+
+

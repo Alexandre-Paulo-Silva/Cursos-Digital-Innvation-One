@@ -1,0 +1,12 @@
+
+
+private ChromeDriver driver;
+
+@before ---> O metodo vai ser execultado antes 
+
+@test ----> tudo que esta esta dentro do metodo sera execultado como teste
+
+@after -----> tudo que execulta depois  
+
+
+

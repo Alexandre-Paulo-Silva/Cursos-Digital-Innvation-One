@@ -1,0 +1,28 @@
+modificadores de acesso 
+
+public ---> pode ser acessada de qualquer lugar por qualquer entidade que possa visualizar a classe
+a que ela pertence
+
+private ---> os metodos e atribuidos da classe definids como privados nao podem ser acessados ou usados
+por nenhuma classe outra classe. esses atribuidos e metodos tambem nao podem ser visualizados pela
+classe herdadas
+
+protected ---> torna os membros acessivel as classes do mesmo pacote ou atraves de heranca, seus 
+membros herdados nao sao acessiveis a outra classes fora do pacote em que foram declarados
+
+default -----> a classe e ou seus membros sao acessiveis somente por classes do mesmo pacote, nao
+sua declaracao nao e permitido nenhum tipo de modificador, sendo este indentificado pelo compilador
+
+final-----> quando e aplicado na classe, nao permite estender, nos metodos impede que o mesmo seja 
+subescrito (overrinding) na subclasse, e nos valores de variaveis nao pode ser alterado depois que
+ja tenha sido atribuido um valor
+
+exemplo: 
+
+pakage one.digital.innovation.finals;
+
+pulbic class Gamer {
+
+    public String keyboard() {return "keyboard gamer";}
+    public Final mouse() {return "keyboard gamer";}
+}

@@ -1,0 +1,18 @@
+Metodos abtratos---> devem ser implementados por todos;
+                     novos Metodos quebram as implementacoes;
+
+Metodos default----> sao herdados a todos que implemetam;
+                     novos Metodos nao quebram as implementacoes
+
+heranca multiplas
+
+enums -----> basicamente e dicionairos de dados imutavel
+             nao e permitido criar nova instancias;
+             o construtor e sempre declarado como private 
+             por convencao, por serem objetos constantes e inmuntaveis (static final) os nomes sao 
+             maiusculos
+
+             exemplo: public em status {
+
+                 OPEN(cod:12, texto:"Aberto")
+             }

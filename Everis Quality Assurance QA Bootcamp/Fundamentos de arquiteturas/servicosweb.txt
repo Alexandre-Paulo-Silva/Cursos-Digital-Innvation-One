@@ -1,0 +1,34 @@
+Servicos web
+
+Servicos web ou web Services sao solucoes para aplicacoes se comunicarem independentemente de liguagem
+software e hardware utilizados.
+
+inicialmente servicos web foram criados pra troca de mensagens utilizado a liguagem xml(extensible
+markup liguagem) sobre o protocolo HTTP sendo indentificado por URI (Unifom Resource Idenfier).
+
+Podemos dizer que servicos web sao Api que se comunicam por meio de redes sobre o protocolo HTTP
+
+
+webservice.com/dados/
+
+vantagems 
+
+liguagem comum
+
+integracao
+
+reutilizacao de implementacao
+
+seguraca 
+
+custo
+
+principais tecnologias 
+
+SOAP
+
+REST 
+
+XML
+
+JSON

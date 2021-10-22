@@ -1,0 +1,45 @@
+O java 8 veio com uma serie de novidades para facilitar o trabalho com Datas.
+
+E a grande melhoria esta no pacote java.time que foi herdado do projeto Joda Time.
+
+https://www.joda.org/joda-time/
+
+Trabalhar com datas nunca foi tao facil com esse novo pacote 
+
+nele destacam-se tres classes
+
+LocalDate
+LocalTime
+LocalDateTime
+
+-----------------------------------------------
+
+basicamete, o que tinhamos ate entao eram as classes que vimos ate agora: date e calendar
+
+Com o uso cosntante, elas se mostram confusas e trabalhosas.
+
+alem de serem mutaveis
+
+---------------------------------------------
+
+localDate e uma classe imultavel para representar uma data.
+
+Seu Formato padrao e yyyy-MM-dd
+
+---------------------------------------------------------------------
+
+LocalTime e uma classe imultavel que reprensenta um padrao de hora-minuto-segundo
+
+LocalTime pode ser representado ate nivel de nanosegundos. Exemplo: 12:22:10:123212345
+
+Sua utilizacao e similar ao LocalDate
+
+
+-----------------------------------------------------------------------
+
+LocalDateTime funcinona como uma especie de juncao entre o LocalTime e o LocalDate
+
+Tambem e uma classe imultavel e voce consegue trabalhar com dia e hora de uma so vez
+
+voce pode manipular a data e a hora com precisão de nanosegundos. Exemplo: 2nd October 2007 ar 
+13:45.30.123456789

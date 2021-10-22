@@ -1,0 +1,17 @@
+https://start.spring.io/
+
+Gladle Project
+
+spring boot 2.5
+
+packaging jar
+
+java 8 preferencia
+
+dependenceis:
+
+spring web
+
+spring data JPA
+
+Postguesql Drive

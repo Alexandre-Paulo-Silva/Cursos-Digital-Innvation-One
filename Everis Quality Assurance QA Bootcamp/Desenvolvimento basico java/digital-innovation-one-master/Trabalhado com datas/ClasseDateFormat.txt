@@ -1,0 +1,9 @@
+O java.text.DateFormat
+
+Nesse ponto em que estamos existem, basicamente, duas classes para formatacao de datas, O DateFormat e o SimpleDateFormat
+
+Ambos oferencem maneiras de formatar e parsear a saida das datas.
+
+----------------------------------------------------------------------
+
+Ja o SimpleDateFormat traz um grande Facilidade que e definir um padrao de formacao para saida de data que voce deseja.

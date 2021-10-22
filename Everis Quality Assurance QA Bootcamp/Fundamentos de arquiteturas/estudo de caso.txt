@@ -1,0 +1,10 @@
+Arquterura de escolha 
+
+Prova de conceito
+
+APP android ------------- clipse Mosquitto ----------- node.js ------------vanco de dados mysql
+
+minimo produto viavel
+
+gps embarcado ------- HiveMq --------- akka Sacala JVM --------noSQL
+

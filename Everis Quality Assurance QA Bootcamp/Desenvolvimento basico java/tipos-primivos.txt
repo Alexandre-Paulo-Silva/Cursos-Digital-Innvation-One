@@ -1,0 +1,48 @@
+Primitivos 
+
+Nao aceitam null 
+possuem valores default
+
+data byte                                    default values(for fields)
+
+byte                                                       0         
+short                                                      0
+int                                                        0
+long                                                       0L
+float                                                      0.0f
+double                                                     0.0d
+char                                                      '\u0000'
+String(or any object)                                      null
+boolean                                                    false
+
+---------------------------------------------------------------------------------------------------
+
+public static void main (String[] args){
+
+byte b1 = 127;  //8bits
+byte b2 = -129;
+
+
+char c = 'A'; //16bits
+char c3 = 15;
+
+
+short s1 = 3456787; //16 bits
+short s2 = -344566;
+
+int i = 223244256; //32 bits
+
+long l = 78139183818373137L; //64 bits
+
+float f = 65f; //32 bits
+
+double d = 123.99; // 64 bits
+
+boolean bo = true;
+
+void v; palavra reservada
+
+
+
+
+}

@@ -1,0 +1,93 @@
+O java.util.date 
+
+Antes de qualquer coisa, vamos definir aqui o ponto que estamos
+
+A implementacao do java.util.date esta no JDK desde a versao 1.0
+
+Ou seja e de se esprerar que algumas coisas nao se mostrem tao interessantes nos dias atuais, dado a sua idade.
+
+construtores da classe date 
+
+
+Date()
+
+Date(int year, int month, int date)
+Date(String s)
+
+Date()
+
+Date(long date)
+
+
+---------------------------------------------------------
+
+Date()
+
+Este construtor vai alocar um objeto de classe date e o incializar com milossegundo mais proximo do periodo de sua execucao
+
+------------------------------------------------------------------
+
+Exemplo de date
+
+
+import java.util.Date;
+
+public class Exemplo {
+	
+
+	public static void main(String[] args){
+
+
+	Date novaData = new Date();
+	System.out.println(novaData);
+
+
+
+	} 
+
+
+}
+
+----------------------------------------------------------------------------------
+date (long date)
+
+diferente do cosntrutor anterior, esse construtor espera que voce passe os milessegundos com base padrao de tempo (epoch) que usa como referencia 1 de janeiro de 1970 00:00:00
+
+o que e o Epoch ?
+
+o epoch timestamp e um padrao largamente aceito para representar uma data como um inteiro 32-bits a partir do incio do Unix Epoch...
+
+Vamos testar com base no System.currentTimeMillis()
+
+Esse metodo estatico vai nos retornar o milissegundo mais proximo de sua execucao com base no sistema operacional
+
+--------------------------------------------------------------------------------------
+metodos uteis 
+
+after(Date) ---- boolean ---> Checar se o objeto Data de referencia e posterior e comparado
+
+before(Date) ---- boolean ----> Checar se o objeto Dara de referencia e aterior ao comparado
+
+compareTo(Date) ----- int -----> Comparara dois objetos Data
+
+equals(Date) ---------boolean -------> Checa se os objetos sao iguais
+
+getTime() --------long ----------> Retorna a data em milissegundos
+
+setTime(long) -------- void ------> Define uma data com base em milissegundos
+
+from(instance) -------static Date ------> Define uma data com base em um instant
+
+tolnstant ---------- Instant ----------> Retorna uma Instant com base em um Date 
+
+-------------------------------------------------------------------------------
+
+classe Instant
+
+- Surgiu na JDK 1.8
+
+- Imultavel e Thread safe;
+
+- Modela um ponto instantaneo de uma linha do tempo;
+
+- Indicado para gravar marcacoes temporais em eventos da sua aplicacao

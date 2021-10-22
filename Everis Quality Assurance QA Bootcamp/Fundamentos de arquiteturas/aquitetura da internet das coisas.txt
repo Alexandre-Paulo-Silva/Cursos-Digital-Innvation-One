@@ -1,0 +1,59 @@
+Problema a resolver
+
+considere esses atributos na escolha 
+
+things
+
+baixo consumo de energia
+rede de dados limitado
+resiliencia
+seguranca
+customizacao
+
+Arduinos
+
+plataforma de prototipagem
+com entrada / saidas
+desevolvedor escre em c/c++
+interface serial ou USB
+shields
+
+embarcados
+
+MCUS
+
+microcontrolador de chip unico
+sistemas operacional real time
+embarcados
+uso industrial, medico, militar, transporte
+
+Raspbarry Pi 
+
+computador completo
+hardware integrado em uma unica placa
+roda SO linux e Windows
+uso domestico e comercial
+
+gps traker
+
+protocolo MQTT
+
+o que e o MQTT
+
+base na pilha do tcp/ip
+protocolo de menssagem assincrona (M2M)
+Criado pela IBM para conectar sensores de pipelines de petroleo a satelites
+padrao OASIS suportado pela linguagens de programacao mais populares
+
+modelo cliente servidor
+
+                request
+client ------------------------- server 
+                response
+
+modelo publish / Subscribe
+
+publish
+
+gps ------------------> mqtt broker
+pub mqtt://mv-traker.com/gps/position{lat:-22231414, lot 13323133}

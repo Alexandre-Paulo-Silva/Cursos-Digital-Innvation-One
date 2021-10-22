@@ -1,0 +1,54 @@
+Listas
+
+A diferença entre Listas e arrays e a de que as listas possuem tamanho ajustavel, enquanto arrays
+possuem tamanho fixo.
+
+existem dois tipos de listas: 
+
+ligadas
+
+Duplamente ligadas
+
+Lista ligadas
+
+Na estrutura do tipo lista existem os nos onde cada um dos nos conhece o valor que esta sendo armazenado
+em seu interior alem de conhecer o elemento posterior a ele: por isso ela e chamada de lista ligada
+pois os nos sao amarrados com essa indicacao do qual e o proximo nos.
+
+lista ligada de  nomes
+
+Primeiro nó                   Ultimo nó
+          |                   |    
+          |------> No  <------|
+                 "Pedro"     
+                    |---------->
+                              proximo nó  
+
+
+
+
+Primeiro nó                                                           Ultimo nó          
+          |                   |                                       |
+          |------> No  <------|                         No <----------| 
+                 "Pedro"                              "Joana"                    ^ 
+                    |------------------------------------|-----------------------|
+                              proximo nó (1)                    proximo nó (2) 
+
+
+lista Duplamente ligada
+
+A grande diferença das listas Duplamente ligadas para as listas e que elas sao bidimensionais,
+
+vimos que naturalmente nao conseguimos andar para tras em listas ligadas pois os nos de uma listalifada 
+somente quem e o sabem quem e o proximo elemento e tambem e tambem quem e o elemento anterior o 
+que permite a navagação reversa 
+
+    No anterior (1)                No anterior (2)
+<-----------------------------|----------------------------|   
+                              |                            |
+Primeiro nó                   |                            |
+          |                   |                            |           Ultimo nó
+          |------> No  <------|                         No |   <-------|
+                  "Pedro"                             "Joana"                      ^ 
+                    |--------------------------------------|-----------------------|
+                              proximo nó (1)                    proximo nó (2)

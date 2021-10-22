@@ -1,0 +1,185 @@
+Existem diversas tencnicas ultilizadas para gerar casos de testes. vamos abordar as seguintes tencnicas
+de testes:
+
+* Particao por Equivalencia (Equivalence Partition)
+* Analise do valor Limite (Boundary value analysis)
+* Tabela de Decisao (Decison Table)
+* Teste por Transicao de Estado (State Transitioning Testing)
+
+Analise do valor Limite
+
+O valor limite (bordas exeternas de uma particao ) sao uma area em que os testes podem gerar defeitos
+Os testes podem ser desenhados para cobrir tanto os valores validos , quanto os invalidos.
+
+Deve ser feito um caso de teste para cada valor limite
+
+A tencnica e executada da seguinte forma:
+
+1. indentificar as particoes quivalentes e os ranges de valores relacionados 
+
+2. identificar os valores maximos e minimos (resultando em particoes validas e invalidas).
+
+3. Desenvolver as condicoes de testes para valor limite indentificado.
+-----------------------------------------------------------------------------
+Analise de valores limite
+
+Exemplo:
+
+19 
+valores invalidos
+idade < 20
+Particao e Equivalencia invalida
+=====================================================
+20  50
+valores validos 
+idade >=20 e idade <=50
+Particao de Equivalencia valida
+====================================================
+51 
+valores invalidos
+idade > 50
+Particao de Equivalencia
+
+variacoes dessa tencnica podem identificar tres valores de limite por limite de dados:
+
+* O valor anterior ao limite
+* O proprio valor limite
+* E imediatamente superior de 
+
+-------------------------------------------------------------------------
+
+
+Execicio 
+
+Considere o teste de uma aplicacao de venda de cafes pela internet. Um dos produtos mais vendidos e 
+o cafe torrado e moido , vendido exclusivamente em embalagens de 100 , 500 e 1000 gramas O sistema 
+permite a compra de no minimo 1kg e no maximo  20 kg. Alem disso, a quantidade toral pedida deve ser
+acomodada em uma ou mais embalagens disponoveis. Qual conjunto minimo de entradas para a compra de 
+cafe torrado e moido (kg) para cobrir os valores limites para esta variavel ?
+
+A) 0,9; 1,0; 20,0;20,1 correta 
+B) 1,0; 20; 0
+C) 0,0; 0,1; 20,0; 20,1
+D) 0,0; 0,1; 16,0; 20,1
+
+
+valores invalidos 0,9
+vendas < 1kg  
+Particao Equivalencia invalida
+
+valores validos   20,0
+venda >=1 kg e venda <=20 kg
+Particao de Equivalencia valida
+
+valores invalidos 20,01
+venda > 20 kg
+Particao de Equivalencoa valida
+
+---------------------------------------------------------------------------
+
+Tabela de Decisao
+
+Uma tabela de decisao ajuda a testa regras de negocio sobre varias condicoes do sistema(input do usuario)
+e as acoes correspondentes (system outputs)
+
+A tencnica de Tabela de decisao analisa essenciamente dois parametros: 
+
+* condicoes 
+* acoes
+
+------------------------------------------------------------------------------
+
+Transicao de Estados
+
+Diagrama de Transicao de Estado, sao ultilizados no design da aplicacao para representar o comportamento
+de um sistema em um numero finito de Estado
+Estes Diagramas sao extremamente uteis em situcacoes aonde a analise e testes de sistema sao requeridos
+ultilizadas como base o comportamento /situcao anterior da aplicacao com que esta ocorrendo no presente
+A Transicao e iniciada por evento (usuario inseriu valor em um campo)
+O evento resulta em uma trasicao 
+A mudaca de estado pode fazer com que o software execute uma acao (gerar menssagem de cáculo ou erro)
+
+-------------------------------------------------------------------
+
+trasicao de Estado
+
+ 
+                         carregar aquivo
+ |---------- vazio ---------|
+ |                          |
+ |                          |
+ |                          |
+salvar e sair             agardando um comando
+ |                          |
+ |        |------|          |
+ |        |      +          |
+ |-------agardando Texto----|
+
+ trasicao de Estado
+
+ A trasicao e iniciada por evento (entrada de u, valor em um campo)
+ O evento resulta em uma trasicao;
+ A mudaca de estado pode fazer com que o software execute uma acao (gerar uma menssagem de calculo
+ ou de erro).
+
+ Exemplo:
+
+            conferido pedido             Realizar Pgto
+                   /---------\         
+                  /           +                      
+ ----------> Emitido           Conferido ---------------->Pago
+ Realizar           baixar do               Gerar
+  pedido             estoque                 Nota Fiscal
+
+  Quais dos casos de testee abaixo irao cobrir a seguinte serie de trasicao de estado:
+  SS - S1 - S2 - S1 -S2 - ES
+
+  A) A,B,E,B,F Correta
+  B) A,B,C,D 
+  C) A,B,E,B,C,D 
+  D) A,B,F
+
+
+        A          B          C         D
+  SS ------- S1 --------S2 --------S3--------ES
+                              E         F
+
+
+Tecnicas de Testes Baseadas na Experiencia
+
+
+Suposicao de erro
+
+Como o aplicativo funcionou no passado;
+Quais tipos de erros os desenvolvedores tendem a fazer; 
+Falhas ocorridas em outros aplicativos;
+
+Teste Exploratorio
+
+Sem um roteiro previamente definido. Sao modelados, executados, registrados e avaliados dinamicamente
+durante a execucao do teste.
+----------------------------------------------------------------------
+
+Posso Testar ?
+
+Ambiente esta atualizado --------> Tenho todos os acessos necessarios ----------> Preciso de alguma massa de teste
+
+------------------------------------------------------------------
+
+Evidencias de Erro: 
+
+o que uma boa evidencia deve ter ?
+
+Print do erro
+Descricao do passo a passo de como chegar no problema
+Descricao do erro mostrando na tela 
+Navegador sistema operacional usando 
+versao de sistema testado
+
+Evidencias de Sucesso:
+O que uma boa evidencia deve ter ?
+
+Print do resultando esperado
+Nome ou id do caso de teste
+Data da execucao e versao do sistema realzado
+Ciclo de teste

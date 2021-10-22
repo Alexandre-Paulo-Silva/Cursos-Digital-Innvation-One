@@ -1,0 +1,18 @@
+tabela de  Espalhaento
+
+Uma tabela hash, de dispersao ou Espalhaento e uma estrutura de dados especial, que associa 
+claves de pesquisa a valores.
+
+Hashing
+
+Uma tabela hash e uma generalizacao de ideia de array, porem utiliza uma fincao  demnominada 
+Hashing para espalhar os Elementos, fazendo com que os mesmos fiquem de forma nao ordenada detro
+do array que define a tabela
+
+Por que espalhar ?
+
+A tabela hash permite a associacao de valores a chaves
+
+valores: e a posicao ou indice onde o Elemento se encontra
+
+chaves: parte da informacao que compoe o Elemento a ser manipulado

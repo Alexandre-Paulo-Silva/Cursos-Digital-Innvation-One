@@ -1,0 +1,9 @@
+Sobre
+
+Vetores e Matrizes ou Arrays sao estrutura de dados simples que podem auxiliar quando ha muitas
+variaveis do mesmo tipo de um algoritmo
+
+Vetor ou array uni-dimensinal e uma variavel que armazena varias variaveis do memo tipo.
+
+O vetor e uma estrutura de dados indexada, que pode armazenar uma determinada quantidade de valores
+do mesmo tipo.

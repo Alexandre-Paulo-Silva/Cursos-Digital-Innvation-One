@@ -1,0 +1,25 @@
+integracao com servicos rest 
+
+metodos HTTP na pratica
+
+codigo de estado HTTP
+
+codigo de estado 
+
+usado pelo servidor para avisar o cliente sobre o estado da operacao solicitada
+
+1xx - informativo 
+
+2xx - sucesso
+
+3xx - rendirecionamento
+
+4xx - Erro do cliente
+
+5xx - Erro do servidor
+
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
+
+
+

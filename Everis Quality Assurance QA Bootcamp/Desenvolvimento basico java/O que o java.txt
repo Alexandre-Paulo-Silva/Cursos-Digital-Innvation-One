@@ -1,0 +1,83 @@
+O que o java ?
+
+java e uma liguagem de programacao e plataforma computacional lancada em 1995 pela sun microsystems,por um time 
+comandado por james gosling. Anos depoisn foi adiquirida pela oracle
+
+diferentemente de outra liguagem de programacao, que sao compliladas para codigo nativo o java e compilado para um
+tytecode que e imterpretado por uma maquina virtual
+
+o que e um compilador ?
+
+Um compulador e um programa  que partir de um codigo fonte cria  um programa sematicamente equivalente porem escrito
+em outra liguagem, codigo ojeto. Um compilador traduz um programa de uma liguagem textual para uma liguagem de maquina , especifica para um processador e sistema operacional
+
+o nome compilador e usado principalmente para ps programas que traduzem o codigo fonte de uma liguagem de programacao de alto nivel para uma liguagem de programacao de baixo nivel como por exemplo o Assembly ou codigo de maquina
+
+o que e o bytecode ?
+
+e o codigo de compilacao de programas java
+
+o bytecode e o programa interpretado e execultado pela maquina virtual java, jvm
+
+
+
+o que JVM
+
+Principamente explicar que uma vm 
+
+uma maquina virtual ou virtual machine e um sofware que simula uma maquina fisica e consegue executar varios programas, gerenciar processos, memorias e aquivos. Tudo isso faz parte de uma plataforma com memoria, processador e outros recursos totalmente virtualis sem, dependencias do harware.
+
+A Jvm e uma virtual que executa programas java, execultando os bytecodes em liguagem de maquina para cada sistema operancional
+
+
+
+																   /--------> jvm windons
+                                                                  /
+																 /
+codigo JAVA .java -----> compilador javac -----> bytecode .class/--------> jvm linux
+																\
+																 \
+																  \ 
+																   \-------> jvm macos
+
+
+O que e JRE?
+
+
+JRE segnifica java rentime Envirenment ou ambiente de execulcao do java e composto pela java virtual machine jvm, bibliotecas e apis de linguagem java e outras componetes pra suporte da plataforma java
+ele representa a parte responsavel pela a execucao do sofware do java
+
+sudo apt-get install openjdk-8-jre
+
+
+o que e a jdk
+
+java development kit (jdk) , kit de desenvolvimento java, e um conjunto de ultilitarios que permitem criar sofware pra plataforma ja e composto pelo compilador java, bibliotecas de linguagem, ferramentas e JRE
+
+
+sudo apt-get install openjdk-8-jdk
+
+
+o que e java se ?
+
+java stardard edition se e a distribuicao minima da plataforma de desenvolvimento da aplicacao java
+
+
+opendk e a implemetacao de referencias opemsource da plataforma java, javase, que ainda e mantida pela oracle
+
+
+o que java ee
+
+java Enterprise Editon e uma extencao da java se que possui suporte a densvolvimento de sistemas corporativos
+
+
+servidores de aplicacao java ee, sabem seguir essas especificacoes e implementar os recursos para o usuarios
+
+
+ex: Jboss(redhat), weblogic(Oracle), webSphere(ibm), glassfish = opensuse 
+
+
+o que jakarta ee
+
+com a falta de investimento da oracle no java ela cedeu tudo o codigo, implementacoes e especificacoes do java ee para o eclipse foundation, mas com o nome java ee e uma marca registrada foi escolhido o nome jakarta ee
+

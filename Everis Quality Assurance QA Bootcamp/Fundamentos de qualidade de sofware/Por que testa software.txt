@@ -1,0 +1,45 @@
+Nas ultimas decadas, o usuario se tornou cada vez mais exigente. Por isso as empresas aprenderam que a satisfacao do usuario e o ponto central para o sucesso de uma organizacao.
+
+Que resultou no crescimento significativo da area de QA no mercado nos ultimos anos.
+
+o que qualidade de Software ?
+
+o que e teste de software ? 
+
+Teste de software e um processo quen faz parte do ciclo de vida do software, e tem como principal 
+objetivo avaliar a qualidade do software e reduzir o risco de falha no software em operacao.
+
+Quanto pode Custar um Bug ?
+
+Os bugs sao inevitaveis no desenvolvimento de um produto. Por isso, existem divesas tecnicas de 
+desenvolvimento e processos de controle de quanlidade realizadados durante o ciclo de desenvolvimento
+ de software  que buscam evitar que um erro afete a experiencia e a confiaça do usuario na aplicacao.
+
+
+Quanto pode custar Um bugs
+
+requisitos = 1 vez
+projeto = 3-6 vezes
+codificacao = 10 vezes
+desenvolvimento de teste = 15-40 vezes
+sistema de teste = 30-70 vezes
+manutencao = 40-100 vezes
+
+Principios de Teste de Software
+
+O teste mostra a presenca de defeitos e nao sua ausencia
+teste exaustivos sao impossiveis
+O teste inicial economiza tempo e dinheiro
+cuidado com o paradoxo do pesticida
+O teste depende do contexto
+Ausencia do erros e uma ilusao
+
+1)qual custo de um bug na fase de entrega do software ao usuario final ?
+
+R: Custo 100 vezes
+
+2) e correto afimar que :
+
+R: quanto antes um defeito e encontrado, mais barato sai a resolucao.
+
+

@@ -1,0 +1,58 @@
+objetivos da Aula
+
+1 - introducao a internet das coisas
+
+2 - Arquitetura da internet das coisas
+
+3 - Estudo de caso
+
+Requisitos basicos
+
+cloud computing
+
+protolo de comunicao de rede
+
+Processamento de dados e armazenamento
+
+Arpanet - Primeira Rede de computadores
+
+por que conectar as coisas
+
+embutir sensores em objetos do dia a dia
+
+coletar dados dos sensores
+
+usar o dado para tomar decisoes
+
+conceito basicos de loT
+
+things
+cloud
+intelligence
+
+smart building
+
+smart home
+
+wearables - vestiveis no nosso corpo exemplo relogios inteligentes
+
+agriculture 
+
+smart transportation
+
+Rfid Supply clain
+
+energy Efficiency
+
+computacao ubiqua mark wiser
+
+a computacao ubiqua e a terceira onda da comunicao que esta apenas comecado.
+
+desafios da intenet das coisas
+
+1. privacidade e seguranca
+2. Quantidade exponecial de dispositivos conectados na rede
+3. Ser capaz de processar e armazar um enorme Quantidade de infomacoes 
+4. Gerar valor apartir dos dados coletados
+
+

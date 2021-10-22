@@ -1,0 +1,30 @@
+O que git ?
+
+git the stupid content tracker (O rastreador de conteudo idiota)
+
+Sistema de controle e versonamento
+
+De onde vem o git ? 
+
+linux Trovald 
+
+Gits:
+
+Git
+GitHub
+GitLab
+
+Praticando com git, comandos
+
+git init 
+git add . ou nome do arquivo issolado
+git commit -m "menssagem"
+git branch "nome branch"
+git checkout "nome branch"
+git log
+
+git clone 
+git pull 
+git push
+git merge
+git help

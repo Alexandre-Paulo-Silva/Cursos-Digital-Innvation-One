@@ -1,0 +1,57 @@
+Pros e contras Monolito
+
+Pos 
+
+baixa complexidade
+monitoramento simplificado
+
+contras
+
+Stack unica
+compartilhamento de recursos
+acoplamento
+mas complexo a escalabilidade
+
+Pos e contras microserviçoes #1
+
+Pos 
+
+Stack dinamica
+simples escalabilidade
+
+contras
+
+acoplamento
+monitoramento mais complexo
+Provisionamento mais complexo
+
+Pos e contras microserviçoes #2
+
+Pos 
+
+Stack dinamica
+simples escalabilidade
+desacoplamento
+
+contras
+
+
+monitoramento mais complexo
+Provisionamento mais complexo
+
+
+Pos e contras microserviçoes #3
+
+Pos 
+
+Stack dinamica
+simples escalabilidade
+desacoplamento
+menor complexidade
+
+contras
+
+
+Provisionamento mais complexo
+platafoma inteira depende do gerenciador de pipeline
+

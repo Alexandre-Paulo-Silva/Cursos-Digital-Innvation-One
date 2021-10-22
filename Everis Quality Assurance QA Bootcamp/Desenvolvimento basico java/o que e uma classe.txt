@@ -1,0 +1,26 @@
+As classes javas sempre sao inciadas com letras maiusculas
+
+package one.digitalinnovation.class; -----> nome do pacote
+
+
+private String login;
+private String senha; -----> atributos sao caracteristicas de uma classe
+
+public class Programa { --------> nome da class javas
+
+public static void main(String[] args) { ------> main sao execultadados os codigo de entrada e saida
+
+system.out.println(" Hello word"); -----> print imprimido dados 
+
+
+public void getlogin(){ ------> metodos sao acoes de uma classe
+
+    this.login = login;
+}
+
+}
+
+
+
+
+}
