@@ -1,0 +1,22 @@
+o que o BDD ? 
+
+
+O desenvolvimemto orientado por comportamento foi iniciado em meados anos 2000
+como reposta a desenvolvimemto orientado a teste TDD, como ajudar novas equipes
+ageis a ir doreto a ponto de saber como abordae o teste e a codificacao e minimizar
+mal entendimentos
+
+o BDD evoluiu para analise e teste automatizado no nivel de aceitacao 
+
+O Gherkin 
+
+Ele serve para deixar nossos testes automatizado super faceis de ler, para uma 
+pessoa totalmeente leiga no assunto.
+
+E um dos elementos principais quando se trata de BDD em automacao, com a funcao 
+de padronizar e descrever especificacoes do cenario.
+
+deve ser focado em regras de negocio
+
+Em forma de Streps (Passos ) quais especificam cada etapa de inteigracao do usuario
+com o sistema a ser testado

@@ -1,0 +1,21 @@
+Terminologias 
+
+* container image = pacotes com todas as dependencias
+
+* docker files = e um arquivo de bild 
+
+* bild = e uma acao que cria uma image atraves do docker
+
+* Volumes 
+
+* tag = ajuda no versionamento nas imagens
+
+* multi-stage biuld = atraves de uma image e copilada 
+
+* repositorio = caixa de imagens
+
+* Regitry
+
+* Docker hub repositorio 
+
+* compose = multiplos coontainers
