@@ -28,3 +28,8 @@ git pull
 git push
 git merge
 git help
+
+ git rm --cached Curso-Desenvolvedor-Full-Stack/node/funcionarios
+
+git rm --cached -f Curso-Desenvolvedor-Full-Stack/node/funcionarios
+
