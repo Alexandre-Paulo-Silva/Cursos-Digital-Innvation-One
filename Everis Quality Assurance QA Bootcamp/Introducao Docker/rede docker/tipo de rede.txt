@@ -1,0 +1,13 @@
+Tipos de rede 
+
+bidge: e a rede default do docker, ultilizada para comunicacao entre containers
+
+host: remove isoladamento da rede, o containers responde diretamente pela placa
+de rede do host
+
+Overlay: permite a comunicacao entre containers de host diferentes 
+
+macvlan: permite atribuir um endereco mac ao containers tornando ele visivel comunicacao
+um dispositivo fisico na rede 
+
+none: containers sem rede
