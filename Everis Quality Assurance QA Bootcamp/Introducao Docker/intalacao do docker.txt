@@ -1,0 +1,21 @@
+Update no apt:
+$ sudo apt-get update
+Remover versões antigas do docker:
+$ sudo apt-get remove docker-engine docker.io
+Instalar o docker:
+$ sudo apt install docker.io
+
+
+=================================
+
+sudo systemctl start docker 
+sudo systemctl status docker
+sudo systemctl enable docker : para iniciar com o sistema
+
+
+docker --version
+
+sudo docker run 
+
+
+docker run --name dio-cities-db -d -p 5432:5432 -e POSTGRES_USER=postgres_user_city -e POSTGRES_PASSWORD=super_password -e POSTGRES_DB=cities postgres
