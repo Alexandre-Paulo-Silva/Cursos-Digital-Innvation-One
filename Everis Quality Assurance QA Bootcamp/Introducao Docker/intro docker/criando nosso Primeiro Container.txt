@@ -1,0 +1,15 @@
+export
+
+--publicsh -p 
+
+inspect
+
+em uma maquina virtual
+
+dockerfile
+
+suporte a vitualizacao
+
+apt-get install docker.io
+
+na ultima linha 
