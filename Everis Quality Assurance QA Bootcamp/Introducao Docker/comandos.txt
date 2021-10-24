@@ -1,0 +1,18 @@
+run -> rodar o container 
+ps -> listar os container
+info -> informacoes do docker
+image -> imagens dos container
+exec -> execulta ponto binario do container ssh
+stop, start -> para e iniciar
+logs -> lista os output do container
+inspect -> todas as configuracões do container
+pull -> baixar repositorios
+commit -> modificacoes dos container
+tag -> melhorar o versonamento
+longin, logout -> logar e delogar 
+push -> compartilha imagens no repositorios
+seach -> para procurar uma image
+rm -> remover o container
+rmi -> remover uma image
+export, import -> pegar um container do repositorios
+salve, load -> salvar uma image 
